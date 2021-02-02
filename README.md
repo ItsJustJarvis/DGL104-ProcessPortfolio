@@ -34,7 +34,7 @@ Looking back now I feel that if I were to use Indirect Recursion, and write addi
 
 <br/>
 
->**Question:**Consider a recent programming project (perhaps from last semester). Open up the code and examine it for readability (as defined in the reading from Seriously Good Software). Use your README.md file to describe at least three potential areas of improvement, as per the reading from Serious Good Software.
+>**Question:** Consider a recent programming project (perhaps from last semester). Open up the code and examine it for readability (as defined in the reading from Seriously Good Software). Use your README.md file to describe at least three potential areas of improvement, as per the reading from Serious Good Software.
 
 <br/>
 

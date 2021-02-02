@@ -1,5 +1,10 @@
 # DGL104 - Process Portfolio
+
+<br/>
+
 ## Author: Reeve Jarvis
+
+<br/>
 
 ---
 
@@ -7,9 +12,13 @@
 
 ---
 
+<br/>
+
 #### **Activity 0101**:
 
 >**Question:** Consider a recent programming project (perhaps from last semester) in which you either didn't know the answer to a problem, or you couldn't figure out how to solve a development issue you were facing. Revisit that code now, with fresh eyes, and reconsider the problem: Can you articulate exactly why this was a problem before? Is the solution any more evident? Use your README.md file to explain what the problem was and describe the strategies and resources you could use to solve it.
+
+<br/>
 
 Towards the end of last semester we began to discuss recursion and implementing recursive solutions to problems we had previously approached in an iterative way. I found these recursive problems to be much more difficult to comprehend. One programming problem that stumped me was regarding a recursive method that conducts a binary search, but the method was limited to only two parameters: a String target, and an array of Strings. I struggled to find a solution that would return the intended results. 
 
@@ -19,9 +28,15 @@ Looking back now I feel that if I were to use Indirect Recursion, and write addi
 
 ---
 
+<br/>
+
 #### **Activity 0102**:
 
+<br/>
+
 >**Question:**Consider a recent programming project (perhaps from last semester). Open up the code and examine it for readability (as defined in the reading from Seriously Good Software). Use your README.md file to describe at least three potential areas of improvement, as per the reading from Serious Good Software.
+
+<br/>
 
 Examining my code from last semester, there are definitely some areas for improvement when it comes to Readability. 
 
@@ -37,15 +52,23 @@ Another area of improvement I can extract from the reading, is in using the most
 
 Lastly, I could improve upon naming my variables. The above mentioned Pig game relied upon multiple variables to track data values between the player and computer. The names of some of these variables got a bit lengthy, and in some cases resulted in redundancies. With some refactoring, and simplifying my class down into more methods I could have avoided these redundancies and in turn improved readability by providing simplified names for the variables to be shared across both player and computer. 
 
+<br/>
+
 ---
 
 ### **Week 2 Activities** 
 
 ---
 
+<br/>
+
 #### **Activity 0201:**
 
+<br/>
+
 >**Question:** Consider the apps that you use regularly. Choose one app to asses based on the reading Usability Matters Ch. 2. Identify the values inherent to the app that might help to identify the target user base (a list is fine, but be descriptive). Briefly describe the target user base. Do your goals in using the app match those of the target user base?
+
+<br/>
 
 One application I use frequently is Splitwise. The applications main function is to provide a conveinent way to track financial interactions and distribute costs between those involved. It is a free to download app, that provides extra features for an additional premium. With the premium version you can scan receipts, work with various currency conversions, and track the data in graphs.
 
@@ -61,33 +84,82 @@ From the outlined values above it is apparent that this was an excellent app ide
 
 ---
 
+<br/>
+
 #### **Activity 0203:**
 
+<br/>
+
 >**Question:** Visit CodeWars.com and create a new account (if you don't already have one). Consider using a non-identifiable email address for privacy purposes. Choose Java as your default language and choose to either 'Train' on Java, or go to the Kata menu and choose an 8 kyu exercise from the list of exercises. Give your kata of choice a try (don't spend overlong on it, if you get stuck). Take a screenshot of your code when you are done (whether you've finished the kata or not) and post it to your Process Portfolio. Briefly describe whether or not you found the kata challenging, and what stopped you if you got stuck.
+
+<br/>
 
 First of all, thank you for directing us towards codewars, I have had some fun figuring out problems and it is already increasing my understanding. After signing up I chose to train my Java skills and attempted an 8 kyu exercise.
 
 |The Exercise:|                           
 |---|
 |![8KyuExercise](photos/WhichQuarter.PNG)|
-||
 
-|**My Solution:**|
+
+|My Solution:|
 |---|
 |![8Kyu Solution](photos/WhichQuarterSolution.PNG)
-||
+
 
 I was able to complete this solution within a couple minutes, and passed the tests. Upon submitting my successful solution I was presented with alternate solutions following best practises as voted on by others. I immediately realized that there are much more elegant ways to complete the problem that would be less redundant. My solution may not have used the best practises, but I am still very new to programming and I was happy with how fast I was able to accomplish the task presented to me. I did not find it nearly as challenging as I expected it to be going in. Overall, I am still learning about the options available to me in Java when attempting to solve problems (all I will say is CPS100 left a lot to be desired). I expect that most 8Kyu challenges are of a higher difficulty, and I plan to find out.
 
+<br/>
+
+---
+### **Week 3 Activities**
 ---
 
+<br/>
 
+#### **Activity 0301:**
 
+<br/>
 
+>**Question:** Choose a relatively popular app that you use regularly. Try to find [ideally] a video (or screenshots) of the app operating on a different platform than the one you typically use (i.e. if you use iOS, look for the Android version). If you have access to two devices with different platforms, even better - install the app on each platform and try it out. Alternatively, if your chosen app has a progressive web version that you can install on the same device with the native app, try that out instead. What differences do you note between platforms? Pay attention in particular to navigation and button placement. Write down your findings on your Process Portfolio. 
 
-  
-       
+<br/>
 
+**App in Focus:** Facebook
 
+|Facebook iOS|Facebook Android|
+|---|---|
+|![Facebook iOS](photos/facebookiOS.jpg)|![Facebook Android](photos/facebookAndroid.jpg)|
 
+Examining the differences between the facebook application yields some expected results. Due to the different functionalities of the devices, they are presented with slightly different layouts. 
 
+The primary difference is in terms of navigation layout. As android devices have the 3 platform specific buttons integrated into the bottom of the screen, the in-app navigation has been relocated to the top of the activity screen. I beleive the reasoning behind this is to eliminate the possibility of accidentally hitting the android buttons while browsing between activities in the app itself. Additionally these buttons provide some in app functionality as well, such as using the back button to navigate to a previous activity screen within the app. The iOS version, due to not having these buttons has opted to place the navigation bar at the bottom of the screen. In app navigations can be done with a swipe gesture instead.
+
+I can see benefits to either side. Having the ability to use the integrated back button on android is conveinent, though the iOS version does provide a nice "contained" look by bordering the bottom of the screen to avoid the run-off appearance present in the android version.
+
+Either way, in my personal opinion, Android is king.
+
+---
+
+<br/>
+
+#### **Activity 0302:**
+
+<br/>
+
+>**Question:** Visit either Android Developer Guides or Apple Developer Technologies. Scroll through to look for an article/documentation section that interests you. Read through any overview content and scan through some of the related content. Pay attention to the structure of the documentation (i.e. how the documentation is laid out, how the information is presented, etc.) Write a short summary of the section you looked at on your Process Portfolio and breifly describe what you learned about the documentation structure. 
+
+|Link To Documentation Reviewed: https://developer.android.com/training/animation/overview?hl=en|
+|---|
+|![Animations Doc](photos/androidAnimations.PNG)|
+
+While browsing the Android Developer Guides I was drawn to an article regarding animations. You can see the layout of this article in the photo above. The page is presented with an easily navigated menu along the left side of the screen detailing all of the possible articles to explore. On the right hand side of the screen, there is a table of contents pertaining to the information contained within the current article you are viewing. Additionally, throughout the page there are embedded links which reference other materials that may be of interest to you or provide additional context. It is also helpful that they provide visual aids to increase understanding of the content. 
+
+This documentation provided some interesting information regarding the use of animations in your application design. It outlined some use cases for animations in your application, and important considerations to take when creating them. When it comes to animations the document covers four main topics:
+
+1. Animate bitmaps - This section provides suggestions for the proper animation of a bitmap graphic using drawable animation APIs.
+
+2. Animate UI visibility and motion - This section indicates the importance of using subtle animations to help users understand UI changes and make the experience less jarring using physics based motion.
+
+3. Animate layout changes - This section details using transition frameworks to animate layout changes within the current activity, such as a tap event on an item for more information. 
+
+4. Animate between activities - Lastly this section discusses using animations to transition between activity screens within your application. 

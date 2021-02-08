@@ -201,10 +201,9 @@ The above pattern presents a navigation menu that is much more usable for the mo
 | ---------------------------------------------------- |
 | ![Kata 1 Description](photos/MaskifyDescription.PNG) |
 
-| Solution: |
-| --------- |
-
-|![Kata 1 Solution](photos/MaskifySolution.PNG)
+| Solution:                                      |
+| ---------------------------------------------- |
+| ![Kata 1 Solution](photos/MaskifySolution.PNG) |
 
 **Kata #2:**
 

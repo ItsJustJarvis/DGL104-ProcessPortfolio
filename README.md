@@ -214,3 +214,63 @@ The above pattern presents a navigation menu that is much more usable for the mo
 | Solution:                                      |
 | ---------------------------------------------- |
 | ![Kata 2 Solution](photos/SquaredSolution.PNG) |
+
+---
+
+### **Week 5 Activities**
+
+---
+
+<br/>
+
+#### **Activity 0501:**
+
+<br/>
+
+> **Question:** Write a summary that outline the main similarities and differences between MVC, MVP and MVVM. You can use a list to make the distinctions clear, but you should write at least a brief paragraph describing when you might choose to use one over the other.
+
+---
+
+MVC (Model View Controller):
+
+- M: The Model is the data and business logic. It is not tied to the view or controller.
+- V: The View is the representation of the Model. It renders the UI and communicates user interactions to the controller. It has no knowledge of the model, state, or what transpires from the interaction taking place.
+- C: The Controller communicates between the View and Model. As data is changed in the model, the view is appropriately updated.
+
+MVC is great for separating the Model (data) and the View (visual representation). However it does present some concerns when considering the Controller. In larger scale projects it can become unwieldy and hard to maintain. Testing concerns arrise as well since the controller is so closely tied to the Android APIs.
+
+---
+
+MVP (Model View Presenter):
+
+- M: The Model is still the data, and in this way MVC and MVP are similar.
+- V: The View is different in the sense that the activity is considered part of the view. Implementation of a view interface is good practise to handle code from the Presenter.
+- P: The presenter is essentially a controller, but has no direct relation to the View. Rather it commmunicates through the use of an interface.
+
+MVP is much cleaner. You can perform tests more easily as it is not tied to the Android specific APIs or views, and can work with any view that implements the view interface. Similar to MVC the presenter can take on more business logic as the project grows, which can prove to make maintainence difficult in larger projects.
+
+---
+
+MVVM:
+
+- M: The Model remains the same as the previous two examples.
+- V: The View works with variable and actions presented by the ViewModel.
+- VM: The ViewModel encapsulates the model, and presents observable data needed by the view. It also allows the view to pass events to the model, while maintaining separation from the view.
+
+MVVM removes dependency on the view. When testing, the only thing of concern is setting variables accordingly when the model data changes.
+
+---
+
+Overall, MVP and MVVM allow for a more modular approach. They increase the separation of concerns, and reduce dependancies throughout your code. However, they are also much more complicated. For smaller projects MVP may be adequate for your needs, but as things grow it can increase your concerns and damage reusability.
+
+---
+
+<br/>
+
+#### **Activity 0502:**
+
+<br/>
+
+> **Question:** Consider a recent (or current) programming project that uses global variables, or that contains 'coupled' code (i.e. method chaining, or multiple responsibilities). Consider what you would need to do to fix the code and write a brief strategy for your approach (you do not need to write new code here, but consider instead what you might do to 'decouple' your code).
+
+In CPS-100 I had written a program representing a gameroom experience, where the player would select from a series of games-of-chance and compete against a computer player. The player could continue selecting a different game, or play additional rounds until they decided to quit. The way I had written the program initially, I was using global variables for the player name/scoring details. I wanted to have the name be consistent across all the games, and to be able to keep track of the scoring details throughout the entire session until the player decided to quit playing. I had no knowledge on how to properly implement this using accessors and mutators to make these variables private, and little direction as to how to do this properly. I struggled to figure out how to implement a solution that would be properly de-coupled. While troubleshooting my code, I would make an adjustment and that would cause a domino effect essentially breaking 5 other things. Looking back, with the knowledge I have gained in Java programming I can see some viable solutions to this issue. Had I started my coding by establishing a separation of concerns, and using an MVC architecture for example I would have been able to separate the elements of my program from the start. I could ensure that I had a properly structured player class to handle all data related to the player, and use getters and setters to access the information I needed through a controller. In turn I could have the controller use that data and update the view, which could represent the scoreboard. This way, my code would be much more organized and allow for easier adjustments/improvements without risking breaking something else in the process.

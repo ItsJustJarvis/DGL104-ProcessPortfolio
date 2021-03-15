@@ -346,6 +346,18 @@ Google maps is an app that I use frequently, and one that inherently requires re
 
 <br/>
 
-> **Question:**
+> **Question:** After reading Pragmatic Programmer - Debugging consider the three debugging strategies Logging and/or Tracing, Rubber Ducking, and Process of Elimination in the context of a debugging error from one of your own recent coding projects. Did you use a strategy similar to one of these three? Did you take a different approach? What can you learn from these strategies that you will take forward to future projects? Summarize your thoughts on your process portfolio.
+
+In our recent DGL114 Assignment 2, I was experiencing an issue when receiving data from an Intent. For some reason, the information being passed to my activity was not giving me the result I expected. Being new to Android development and programming in general, I felt a bit lost and decided to rely on Logging/Tracing to figure out my issue. This is a skill we had discussed in many of our courses thus far in the DGL program, and a simple one to implement to find a solution. I set up a few Log.d messages to track the values in the variables I needed. Doing this along side some online research allowed me to discover my issue fairly quickly. I realized that the integer being returned was the reference number rather than the actual string value I was expecting. A quick fix was to implement the getResources().getInteger() methods to return the value of the resource. Reading through these different debugging methods re-affirms the importance of the skills we are being taught in this program. Being new to this area of study can be frustrating and defeating at times, but I have learned to step back and take a wider view of the problem and try to approach it with an open mindstate.
 
 ---
+
+<br/>
+
+#### **Activity 0903:**
+
+<br/>
+
+> **Question:** Consider the four step process outlined in the Debugging (MIT OCW 6.005) reading. Which of these four steps have you consciously used before? Consider bugs you've solved before: Is there one step that you feel you've done particularly well? Is there one step that you feel you could improve on? Might there be situations where this four step process won't work? Summarize your thoughts on your process portfolio.
+
+Considering the process outlined in the article, I can definitely see connections to the way I have debugged code in some of my work. When approaching errors within my code I have tried to use techniques taught in previous courses. I usually experiment with different test cases, to observe any change in results. I've also implemented other experimental approaches such as testing internal states/values with print statements or breakpoints. I feel like I have done pretty well at that experimental stage in the process. Something I could improve on is my process of consistently repeating tests. I feel that I am in such a rush to complete assignments that the second I find a viable solution that fixes the problem at hand, I consider my code finalized and ready for submission. This may result in other issues going unnoticed. Either way, the article definitely outlines some useful information, and I could see this process working for most cases both within and outside the world of programming.

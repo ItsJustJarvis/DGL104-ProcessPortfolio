@@ -8,6 +8,10 @@
 
 ---
 
+## **Part 1:**
+
+---
+
 ### **Week 1 Activities:**
 
 ---
@@ -274,3 +278,74 @@ Overall, MVP and MVVM allow for a more modular approach. They increase the separ
 > **Question:** Consider a recent (or current) programming project that uses global variables, or that contains 'coupled' code (i.e. method chaining, or multiple responsibilities). Consider what you would need to do to fix the code and write a brief strategy for your approach (you do not need to write new code here, but consider instead what you might do to 'decouple' your code).
 
 In CPS-100 I had written a program representing a gameroom experience, where the player would select from a series of games-of-chance and compete against a computer player. The player could continue selecting a different game, or play additional rounds until they decided to quit. The way I had written the program initially, I was using global variables for the player name/scoring details. I wanted to have the name be consistent across all the games, and to be able to keep track of the scoring details throughout the entire session until the player decided to quit playing. I had no knowledge on how to properly implement this using accessors and mutators to make these variables private, and little direction as to how to do this properly. I struggled to figure out how to implement a solution that would be properly de-coupled. While troubleshooting my code, I would make an adjustment and that would cause a domino effect essentially breaking 5 other things. Looking back, with the knowledge I have gained in Java programming I can see some viable solutions to this issue. Had I started my coding by establishing a separation of concerns, and using an MVC architecture for example I would have been able to separate the elements of my program from the start. I could ensure that I had a properly structured player class to handle all data related to the player, and use getters and setters to access the information I needed through a controller. In turn I could have the controller use that data and update the view, which could represent the scoreboard. This way, my code would be much more organized and allow for easier adjustments/improvements without risking breaking something else in the process.
+
+---
+
+## **Part 2:**
+
+---
+
+### **Week 8 Activities**
+
+---
+
+<br/>
+
+#### **Activity 0801:**
+
+<br/>
+
+> **Question:** Write a summary that outline the main similarities and differences in MVI as compared to the other three patterns (MVC, MVP and MVVM). You can use a list to make the distinctions clear, but you should write at least a brief paragraph describing when you might choose to use one over the other.
+
+MVI is a newer architecture pattern for Android development. Similar in certain ways to previously discussed architectures, but with some significant differences. MVI has a more reactive design, and Models are immutable.
+
+>**Components of MVI:**
+>**Model:** The model in MVI architecture holds data like other arhitectures, however it is also used to represent State. This means you dont have to manage the state in multiple places such as the View and Presenter/Controller.
+>**View:** Like MVP the view is defined by an interface. In MVI however the view uses observable intents to respond to user actions instead of method names.
+>**Intent:** In MVI, intents are used along side reducers to create new States based on previous and current states. 
+
+MVI is a great for creating scalable and easily maintainable apps. Data flow is carried out in a singular cyclical direction with reliable and immutable Model data. However, it is more difficult to comprehend and may be a bit out of reach for beginners initially.
+
+
+---
+
+<br/>
+
+#### **Activity 0802:**
+
+<br/>
+
+> **Question:** After reading through Usability Matters - Ch. 14 consider an app that you use frequently (on any platform). What resources do you think are most critical to your app's functionality? What choices do you expect the developers of the app made to ensure that the app is performant?
+
+Google maps is an app that I use frequently, and one that inherently requires resources to function properly. Most critically, I would say that it requires location resources, and access to databases containing up to date traffic/satellite data. This data is critical to it's functionality and I'm sure is very resource intensive. I expect that the developers had to make some significant choices in order to ensure proper performance while balancing power and resource drain on the device. Some of these choices probably included:
+
+* Using approximate location rather than specific GPS locations when not using the directions function
+* Cacheing visual map representations to reduce load
+* Only providing traffic information when required
+* Allowing the option to download maps/information to work in offline mode
+
+---
+
+### **Week 9 Activities**
+
+---
+
+<br/>
+
+#### **Activity 0901:**
+
+<br/>
+
+> **Question:**
+
+---
+
+<br/>
+
+#### **Activity 0902:**
+
+<br/>
+
+> **Question:**
+
+---

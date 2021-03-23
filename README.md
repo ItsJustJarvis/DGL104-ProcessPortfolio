@@ -299,13 +299,11 @@ In CPS-100 I had written a program representing a gameroom experience, where the
 
 MVI is a newer architecture pattern for Android development. Similar in certain ways to previously discussed architectures, but with some significant differences. MVI has a more reactive design, and Models are immutable.
 
->**Components of MVI:**
->**Model:** The model in MVI architecture holds data like other arhitectures, however it is also used to represent State. This means you dont have to manage the state in multiple places such as the View and Presenter/Controller.
->**View:** Like MVP the view is defined by an interface. In MVI however the view uses observable intents to respond to user actions instead of method names.
->**Intent:** In MVI, intents are used along side reducers to create new States based on previous and current states. 
+> **Components of MVI:** >**Model:** The model in MVI architecture holds data like other arhitectures, however it is also used to represent State. This means you dont have to manage the state in multiple places such as the View and Presenter/Controller.
+> **View:** Like MVP the view is defined by an interface. In MVI however the view uses observable intents to respond to user actions instead of method names.
+> **Intent:** In MVI, intents are used along side reducers to create new States based on previous and current states.
 
 MVI is a great for creating scalable and easily maintainable apps. Data flow is carried out in a singular cyclical direction with reliable and immutable Model data. However, it is more difficult to comprehend and may be a bit out of reach for beginners initially.
-
 
 ---
 
@@ -319,24 +317,14 @@ MVI is a great for creating scalable and easily maintainable apps. Data flow is 
 
 Google maps is an app that I use frequently, and one that inherently requires resources to function properly. Most critically, I would say that it requires location resources, and access to databases containing up to date traffic/satellite data. This data is critical to it's functionality and I'm sure is very resource intensive. I expect that the developers had to make some significant choices in order to ensure proper performance while balancing power and resource drain on the device. Some of these choices probably included:
 
-* Using approximate location rather than specific GPS locations when not using the directions function
-* Cacheing visual map representations to reduce load
-* Only providing traffic information when required
-* Allowing the option to download maps/information to work in offline mode
+- Using approximate location rather than specific GPS locations when not using the directions function
+- Cacheing visual map representations to reduce load
+- Only providing traffic information when required
+- Allowing the option to download maps/information to work in offline mode
 
 ---
 
 ### **Week 9 Activities**
-
----
-
-<br/>
-
-#### **Activity 0901:**
-
-<br/>
-
-> **Question:**
 
 ---
 
@@ -361,3 +349,38 @@ In our recent DGL114 Assignment 2, I was experiencing an issue when receiving da
 > **Question:** Consider the four step process outlined in the Debugging (MIT OCW 6.005) reading. Which of these four steps have you consciously used before? Consider bugs you've solved before: Is there one step that you feel you've done particularly well? Is there one step that you feel you could improve on? Might there be situations where this four step process won't work? Summarize your thoughts on your process portfolio.
 
 Considering the process outlined in the article, I can definitely see connections to the way I have debugged code in some of my work. When approaching errors within my code I have tried to use techniques taught in previous courses. I usually experiment with different test cases, to observe any change in results. I've also implemented other experimental approaches such as testing internal states/values with print statements or breakpoints. I feel like I have done pretty well at that experimental stage in the process. Something I could improve on is my process of consistently repeating tests. I feel that I am in such a rush to complete assignments that the second I find a viable solution that fixes the problem at hand, I consider my code finalized and ready for submission. This may result in other issues going unnoticed. Either way, the article definitely outlines some useful information, and I could see this process working for most cases both within and outside the world of programming.
+
+---
+
+### **Week 10 Activities**
+
+---
+
+<br/>
+
+#### **Activity 1001:**
+
+<br/>
+
+> **Question:** Have you ever programmed by coincidence? Can you recall a time where you have been stuck programming by coincidence? Which of the points in the 'How to Program Deliberately' bulleted list in the Pragmatic Programmer - Programming by Coincidence stood out to you? Were you surprised by any of the points? Which one do you think would be the most valuable for you to adopt in the future? Summarize your thoughts on your process portfolio.
+
+
+
+
+
+---
+
+<br/>
+
+#### **Activity 1002:**
+
+<br/>
+
+> **Question:** Last week we looked at debugging methods. This week our Avoiding Debugging (MIT OCW 6.005) reading asks us to plan to avoid debugging as much as possible. Asserts are a typical defensive programming technique. Consider a recent problem you've had in your own code: Where might an assert have helped you find the source of a bug more quickly? Are there situations where you might typically use asserts in future programming tasks? Summarize your thoughts on your process portfolio.
+
+
+
+
+
+
+---

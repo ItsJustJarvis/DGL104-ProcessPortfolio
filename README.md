@@ -364,9 +364,11 @@ Considering the process outlined in the article, I can definitely see connection
 
 > **Question:** Have you ever programmed by coincidence? Can you recall a time where you have been stuck programming by coincidence? Which of the points in the 'How to Program Deliberately' bulleted list in the Pragmatic Programmer - Programming by Coincidence stood out to you? Were you surprised by any of the points? Which one do you think would be the most valuable for you to adopt in the future? Summarize your thoughts on your process portfolio.
 
+Being new to programming, I feel that there have been many times when I have programmed by coincidence. To be perfectly honest I don't always understand what I am doing with my code, not for a lack of wanting to but for the simple fact that I am new to all of this. Programming has been something that I have done quite well at overall (if you consider my marks), but it is also something that I struggle to understand constantly. Basically the entire semester of CPS100 I found myself programming by coincidence/example, implementing things that I had seen in one place or another and did not fully understand. I would adjust coding patterns based on my needs and the limited understanding I had and achieve positive results. I do feel that along the way I gained a better understanding about the concepts, but I still don't fully understand what is happening behind the scenes. I feel that alot of that attributes to poor instruction methods for an introductory course if I am being honest. I have a long way to go, but I will continue to do my best to adapt to the situation which is something I pride myself on. As far as points that stood out within the reading:
 
+- Don’t be a slave to history. Don’t let existing code dictate future code. All code can be replaced if it is no longer appropriate. Even within one program, don’t let what you’ve already done constrain what you do next—be ready to refactor (see Topic 40, Refactoring, on page 209). This decision may impact the project schedule. The assumption is that the impact will be less than the cost of not making the change.
 
-
+The above point is something that really stuck with me. I think this is an excellent point to consider when coding, as well as in life, and I plan to keep it in the forefront of my mind when programming going forward. There is always an argument to adjust for new opportunities, rather than remain comfortable with the previous methods.
 
 ---
 
@@ -378,9 +380,6 @@ Considering the process outlined in the article, I can definitely see connection
 
 > **Question:** Last week we looked at debugging methods. This week our Avoiding Debugging (MIT OCW 6.005) reading asks us to plan to avoid debugging as much as possible. Asserts are a typical defensive programming technique. Consider a recent problem you've had in your own code: Where might an assert have helped you find the source of a bug more quickly? Are there situations where you might typically use asserts in future programming tasks? Summarize your thoughts on your process portfolio.
 
-
-
-
-
+Unknowingly I have used asserts many times before in my programming assignments by doing conditional checks to ensure values meet requirements or are not null. Recently, I encountered an issue with one of my DGL114 assignments where I needed to ensure a value was not null to avoid a possible null pointer exception. This definitely assisted me in debugging my code when I was not getting the results that I expected. I definitely plan to continue using asserts in this conditional check form in my future programming tasks. They seem particularly useful in ensuring that accessed values fall within an acceptable boundry to avoid exceptions and errors, such as when getting input values from text entry or returned values from alternate methods.
 
 ---

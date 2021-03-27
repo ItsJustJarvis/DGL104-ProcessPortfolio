@@ -383,3 +383,47 @@ The above point is something that really stuck with me. I think this is an excel
 Unknowingly I have used asserts many times before in my programming assignments by doing conditional checks to ensure values meet requirements or are not null. Recently, I encountered an issue with one of my DGL114 assignments where I needed to ensure a value was not null to avoid a possible null pointer exception. This definitely assisted me in debugging my code when I was not getting the results that I expected. I definitely plan to continue using asserts in this conditional check form in my future programming tasks. They seem particularly useful in ensuring that accessed values fall within an acceptable boundry to avoid exceptions and errors, such as when getting input values from text entry or returned values from alternate methods.
 
 ---
+
+### **Week 11 Activities**
+
+---
+
+<br/>
+
+#### **Activity 1102:**
+
+<br/>
+
+> **Question:** We use a number of different editors and IDEs across the DGL program, the most important of those being VS Code, Android Studio and Xcode. Choose one of these IDEs/editors and find either the documentation for the IDE, or a series of tutorials that describe features and editor tools (VS Code has a great series of articles, for example). Find at least one IDE/editor feature that you previously knew nothing about and summarize its use and purpose on your process portfolio.
+
+After reviewing the articles suggested for VSCode, I discovered some useful tips and tricks that I had no previous knowledge about. To be honest it is a little embarassing that I was completely unaware of the command palette shortcut that brings up all available keyboard shortcuts for the current context. This is honestly such a great tool that will help me remember these shortcuts and keep my hands on the keyboard. By pressing ctrl+shift+P you pull up a list of commands available to you, and their repsective shortcut keys. I will definitely be using this regularly going forward to speed up my coding when building websites and writing javascript in VSCode. It's the little things that go a long way.
+
+---
+
+<br/>
+
+#### **Activity 1103:**
+
+<br/>
+
+> **Question:** Visit CodeWars.com and attempt at least two katas. Ideally you should finish both - so choose something that is within your level of programming expertise. For this activity make sure that you focus on writing clean code and use good naming conventions for all name bindings.
+
+**Kata #1:**
+
+| Description:                                                |
+| ----------------------------------------------------------- |
+| ![Kata 1 Description](photos/ReverseIntegerDescription.PNG) |
+
+| Solution:                                             |
+| ----------------------------------------------------- |
+| ![Kata 1 Solution](photos/ReverseIntegerSolution.PNG) |
+
+**Kata #2:**
+
+| Description:                                        |
+| --------------------------------------------------- |
+| ![Kata 2 Description](photos/BinaryDescription.PNG) |
+
+| Solution:                                     |
+| --------------------------------------------- |
+| ![Kata 2 Solution](photos/BinarySolution.PNG) |

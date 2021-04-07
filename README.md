@@ -299,9 +299,11 @@ In CPS-100 I had written a program representing a gameroom experience, where the
 
 MVI is a newer architecture pattern for Android development. Similar in certain ways to previously discussed architectures, but with some significant differences. MVI has a more reactive design, and Models are immutable.
 
-> **Components of MVI:** >**Model:** The model in MVI architecture holds data like other arhitectures, however it is also used to represent State. This means you dont have to manage the state in multiple places such as the View and Presenter/Controller.
-> **View:** Like MVP the view is defined by an interface. In MVI however the view uses observable intents to respond to user actions instead of method names.
-> **Intent:** In MVI, intents are used along side reducers to create new States based on previous and current states.
+**Components of MVI:**
+
+- **Model:** The model in MVI architecture holds data like other arhitectures, however it is also used to represent State. This means you dont have to manage the state in multiple places such as the View and Presenter/Controller.
+- **View:** Like MVP the view is defined by an interface. In MVI however the view uses observable intents to respond to user actions instead of method names.
+- **Intent:** In MVI, intents are used along side reducers to create new States based on previous and current states.
 
 MVI is a great for creating scalable and easily maintainable apps. Data flow is carried out in a singular cyclical direction with reliable and immutable Model data. However, it is more difficult to comprehend and may be a bit out of reach for beginners initially.
 
